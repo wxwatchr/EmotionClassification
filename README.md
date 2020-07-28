@@ -11,7 +11,8 @@
 **Anticipated Difficulties:**  The data set is already in a useable state and will require minimal cleaning.  The most difficult process will likely be finding the best combination of convolutional layers for accuracy.  Because of this, the majority of the timeline will be devoted to this.
 
 **Timeline:**
-	**Weeks 1-2:**  Defining/researching problem, obtaining approval
-	**Weeks 3:**  Obtaining and cleaning/preparing data
-	**Weeks 4-7:**  Data analysis, best algorithm choice
-	**Week 8:**  Presentation Preparation
+**Weeks 1-2:**  Defining/researching problem, obtaining approval
+**Weeks 3:**  Obtaining and cleaning/preparing data
+**Weeks 4-7:**  Data analysis, best algorithm choice
+**Week 8:**  Presentation Preparation
+
