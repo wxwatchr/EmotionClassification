@@ -6,7 +6,13 @@
 
 **Data:**  Data is available with the Facial Expression Recognition 2013 (FER2013) dataset, located [here](https://www.kaggle.com/astraszab/facial-expression-dataset-image-folders-fer2013?).  The dataset contains over 35,000 images classified as happiness, sadness, anger, surprise, disgust, fear, and neutral.
 
-The dataset was already split into train, validation, and test images.  ImageDataGenerator was then used to randomly select images during training of the CNN model.
+The dataset was already split into train, validation, and test images.  
+
+![images nums](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/num_images.PNG)
+
+ImageDataGenerator was then used to randomly select images during training of the CNN model.
+
+![sample images](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/sample_images.PNG)
 
 **Data Analysis:**  To develop the emotion classification, a neural network will be created.  Various convolutional layers and architectures will be tested for accuracy.
 
