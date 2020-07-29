@@ -14,8 +14,10 @@ ImageDataGenerator was then used to randomly select images during training of th
 
 ![sample images](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/sample_images.PNG)
 
+The data collection and analysis code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/DataCollectionAndEDA.py).
+
 **Data Analysis:**  To develop the emotion classification, a neural network will be created.  Various convolutional layers and architectures will be tested for accuracy.
 
-The weights for the CNN were first tested using the VGG16 model.  Then additional Conv2d, BatchNormalization, MaxPooling, Dropout, and Dense layers were added.  The accuracy was low (46.26%).
+The weights for the CNN were first tested using the VGG16 model.  Then additional Conv2d, BatchNormalization, MaxPooling, Dropout, and Dense layers were added.  The accuracy was low (46.26%).  The VGG16 model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/VGG16model.py).
 
 The same layers were then used with weights set based on the VGG19 model.  
