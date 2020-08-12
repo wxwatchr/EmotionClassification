@@ -20,4 +20,8 @@ The data collection and analysis code can be viewed [here](https://github.com/wx
 
 The weights for the CNN were first tested using the VGG16 model.  Then additional Conv2d, BatchNormalization, MaxPooling, Dropout, and Dense layers were added.  The accuracy was low (46.26%).  The VGG16 model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/VGG16model.py).
 
-The same layers were then used with weights set based on the VGG19 model.  
+The same layers were then used with weights set based on the VGG19 model.  The accuracy was lower than the VGG16 model at 25.31%.  The VGG19 model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/VGG19model.py).
+
+This process was again repeated using base weights from the InceptionV3 model.  The accuracy was 36.56%; performing better than the VGG19 model but worse than the VGG16 model.  The InceptionV3 model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/InceptionV3model.py).
+
+With the low accuracy from the weighted CNNs, a custom CNN was created using multiple layers of Conv2D, BatchNormalization, MaxPooling, Dropout, and Dense layers. The model performed well with an accuracy of 86.22%. The custom CNN model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/customCNN.py).
