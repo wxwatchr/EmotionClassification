@@ -26,5 +26,20 @@ This process was again repeated using base weights from the InceptionV3 model.  
 
 With the low accuracy from the weighted CNNs, a custom CNN was created using multiple layers of Conv2D, BatchNormalization, MaxPooling, Dropout, and Dense layers. The model performed well with an accuracy of 86.22%. The custom CNN model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/customCNN.py).
 
-**Conclusions**
-The custom CNN was able to achieve a high accuracy on the FER2013 data set. 
+**Conclusions:**  The custom CNN was able to achieve a high accuracy on the FER2013 data set. The accuracy and loss graphs are shown below (respectively).
+
+![model accuracy](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/model_accuracy.PNG)
+
+![model loss](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/model_loss.PNG)
+
+The confusion matrix below shows an overall accuracy by emotion of:
+
+Angry: 
+Disgust:
+Fear:
+Happy:
+Sad:
+Surprise:
+Neutral:
+
+![confusion matrix](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/confusion_matrix.PNG)
