@@ -32,14 +32,20 @@ With the low accuracy from the weighted CNNs, a custom CNN was created using mul
 
 ![model loss](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/model_loss.PNG)
 
-The confusion matrix below shows an overall accuracy by emotion of:
+The confusion matrix on the test dataset below shows an overall accuracy by emotion of:
 
-Angry: 
-Disgust:
-Fear:
-Happy:
-Sad:
-Surprise:
-Neutral:
+Angry: 41.14% (most often confused with Happy)
+
+Disgust: 41.82% (most often confused with Angry)
+ 
+Fear: 31.82% (most often confused with Happy)
+
+Happy: 75.54% (most often confused with Angry)
+
+Sad: 26.77% (most often confused with Happy)
+
+Surprise: 58.41% (most often confused with Fear)
+
+Neutral: 40.58% (most often confused with Happy)
 
 ![confusion matrix](https://github.com/wxwatchr/EmotionClassification/blob/master/Graphics/confusion_matrix.PNG)
