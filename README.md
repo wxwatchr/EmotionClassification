@@ -25,3 +25,6 @@ The same layers were then used with weights set based on the VGG19 model.  The a
 This process was again repeated using base weights from the InceptionV3 model.  The accuracy was 36.56%; performing better than the VGG19 model but worse than the VGG16 model.  The InceptionV3 model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/InceptionV3model.py).
 
 With the low accuracy from the weighted CNNs, a custom CNN was created using multiple layers of Conv2D, BatchNormalization, MaxPooling, Dropout, and Dense layers. The model performed well with an accuracy of 86.22%. The custom CNN model code can be viewed [here](https://github.com/wxwatchr/EmotionClassification/blob/master/customCNN.py).
+
+**Conclusions**
+The custom CNN was able to achieve a high accuracy on the FER2013 data set. 
