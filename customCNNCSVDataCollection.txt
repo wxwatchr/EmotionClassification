@@ -1,0 +1,20 @@
+train_set = data[(data.Usage == 'Training')]
+validation_set = data[(data.Usage == 'PublicTest')]
+test_set = data[(data.Usage == 'PrivateTest')]
+
+#label emotions
+emotion_labels = ["Angry", "Disgust", "Fear", "Happy", "Sad", "Surprise", "Neutral"]
+num_classes = len(emotion_labels)
+
+X_train = np.array(list(map(str.split, train_set.pixels)), np.float32)
+X_validation = np.array(list(map(str.split, validation_set.pixels)), np.float32)
+X_test = np.array(list(map(str.split, test_set.pixels)), np.float32)
+
+num_train = X_train.shape[0]
+num_validation = X_validation.shape[0]
+num_test = X_test.shape[0]
+
+X_train = X_train.reshape(num_train, width, height, depth)
+X_validation = X_validation.reshape(num_test, width, height, depth)
+X_test = X_test.reshape(num_test, width, height, depth)
+
